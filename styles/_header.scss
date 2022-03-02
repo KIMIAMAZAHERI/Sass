@@ -1,0 +1,39 @@
+header{
+    height: 10vh;
+    background-color: aqua;
+}
+.logo{
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background: #111111;
+}
+.nav{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &__list{
+        width: 50% + 50%;
+        display: felx;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    &__li{
+       list-style: none; 
+    }
+    &__link{
+        color: #111111;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        &:hover{
+            color: #292424;
+        }
+    }
+}
