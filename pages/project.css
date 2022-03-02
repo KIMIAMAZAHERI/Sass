@@ -1,0 +1,14 @@
+@import 'font';
+
+.tr, th, td{
+    border-bottom: 1px solid black;
+}
+.table{
+
+}
+.main{
+    display: flex;
+}
+.photo__project{
+
+}
