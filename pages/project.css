@@ -1,8 +1,19 @@
 @import 'font';
 
+.information{
+    display: flex;
+    flex-direction: row;
+}
+.information__text{
+    max-width: 800px;
+    width: 100%;
+}
+table{
+    margin-left: 100px;
+}
 .tr, th, td{
     border-bottom: 1px solid black;
 }
-.main{
-    display: flex;
+.photo__project{
+    margin-top: 50px;
 }
